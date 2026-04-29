@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "470160093807",
+    "project_id": "quickcook-fac37",
+    "storage_bucket": "quickcook-fac37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470160093807:android:49e1bd2c30d73efe03939a",
+        "android_client_info": {
+          "package_name": "com.dhanya.quickcook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOaXU4rrmHU3wpjtwYiALDMZfgnoH3hbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

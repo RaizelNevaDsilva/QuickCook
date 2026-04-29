@@ -1,0 +1,46 @@
+name: quickcook
+description: QuickCook – Where Time Meets Taste
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+
+  # State management
+  provider: ^6.1.1
+
+  # Local storage for favorites & theme pref
+  shared_preferences: ^2.2.2
+
+  # Smooth page indicator
+  smooth_page_indicator: ^1.1.0
+
+  # Cached network image (for food images via URL)
+  cached_network_image: ^3.3.1
+
+  # Material icons
+  cupertino_icons: ^1.0.6
+
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/recipes.json
+    - assets/images/quickcook_banner.png
+    - assets/images/homepage_banner.jpeg
+    - .env
